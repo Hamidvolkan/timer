@@ -1,0 +1,51 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 70%;
+    width: 60rem;
+    background-color:#ffa600;
+
+    border-radius:2rem;
+    background-color: ;
+}
+
+hr {
+    width: 40%;
+
+}
+
+button{
+    width: 5rem;
+    margin: 1rem;
+    border-radius:0.5rem;
+    height: 3rem;
+    background-color: #ffa600;
+    border: solid 0.2px white;
+    outline: none;
+    transition: all ease-in-out 0.2s;
+    overflow: hidden;
+}
+
+button:hover{
+    background-color: white;
+}
+
+button:active{
+    font-size: 1rem;
+}
+
